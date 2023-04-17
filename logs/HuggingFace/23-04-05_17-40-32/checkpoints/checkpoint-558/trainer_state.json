@@ -1,0 +1,50 @@
+{
+  "best_metric": 0.016314147040247917,
+  "best_model_checkpoint": "../../logs/HuggingFace/23-04-17_17-21-35/checkpoints/checkpoint-558",
+  "epoch": 3.0,
+  "global_step": 558,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 1.7575757575757576e-05,
+      "loss": 0.1734,
+      "step": 186
+    },
+    {
+      "epoch": 2.0,
+      "learning_rate": 1.4107226107226108e-05,
+      "loss": 0.0092,
+      "step": 372
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 0.02150891162455082,
+      "eval_runtime": 3.266,
+      "eval_samples_per_second": 303.121,
+      "eval_steps_per_second": 18.983,
+      "step": 372
+    },
+    {
+      "epoch": 3.0,
+      "learning_rate": 1.063869463869464e-05,
+      "loss": 0.0066,
+      "step": 558
+    },
+    {
+      "epoch": 3.0,
+      "eval_loss": 0.016314147040247917,
+      "eval_runtime": 3.2931,
+      "eval_samples_per_second": 300.628,
+      "eval_steps_per_second": 18.827,
+      "step": 558
+    }
+  ],
+  "max_steps": 1135,
+  "num_train_epochs": 7,
+  "total_flos": 811664716903680.0,
+  "trial_name": null,
+  "trial_params": null
+}
